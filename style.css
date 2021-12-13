@@ -1,0 +1,59 @@
+ 
+#clear{   
+border: 3px solid gray;  
+border-radius: 3px;  
+padding:0 px;  
+background-color: gray;
+color: red;  
+}  
+  
+.formstyle  
+{  
+width: 260px;  
+height: 470px;  
+margin: auto;  
+border: 3px solid gray;  
+border-radius: 5px;  
+padding: 20px; 
+background-color: gray; 
+}  
+  
+  
+  
+input  
+{  
+width: 15px;  
+background-color: gray;  
+color: white;  
+border: 3px solid gray;  
+border-radius: 5px;  
+padding: 26px;  
+margin: 1px;  
+font-size: 12px;  
+}  
+  
+  
+#calc{  
+width: 210px;  
+border: 1px solid white;  
+border-radius: 3px;  
+padding: 20px;  
+margin: auto;  
+}  
+#equal{
+    background-color: blue;
+    width:130px;
+}
+#add{
+    color:blue
+}
+#sub{
+    color:blue
+}
+#mul{
+    color:blue
+}
+#div{
+    color:blue
+}
+
