@@ -5,7 +5,7 @@ let result=`
   <input id = "calc" type ="text" name = "answer"> <br> <br>  
   <input type = "button" value = "C" onclick = "form1.answer.value = ' ' " id= "clear" > 
   <input type = "button" value = "⬅" onclick = "form1.answer.value = ' ' "  >
-  <input type = "button" value = "." onclick = "form1.answer.value = ' .' "  > 
+  <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
   <input type = "button" value = "X" id="mul" onclick = "form1.answer.value += '*' "> 
    
     
@@ -24,7 +24,7 @@ let result=`
   <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
   <input type = "button" value = "+" id="add" onclick = "form1.answer.value += '+' ">  
   
-  <input type = "button" value = "0" onclick = "form1.answer.value += "0' ">  
+  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
   <input type = "button" value = "00" onclick = "form1.answer.value += '00' ">    
   <input type = "button" value = "=" id="equal" onclick = "form1.answer.value = eval(form1.answer.value) ">  
   <br>     
